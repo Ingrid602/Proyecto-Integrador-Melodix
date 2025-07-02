@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProyectoIntegrador_Melodix
+{
+    internal class HistorialLike
+    {
+        public int Id { get; set; }
+        public string TipoObjetoLike { get; set; }
+        public string AccionLike { get; set; }
+        public DateTime Fecha { get; set; }
+        public int UsuarioId { get; set; }
+        public int ObjetoId { get; set; }
+    }
+}
