@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class HistorialLike
+    public class HistorialLike
     {
         public int Id { get; set; }
         public string TipoObjetoLike { get; set; }

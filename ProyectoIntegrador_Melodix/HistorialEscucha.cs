@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class HistorialEscucha
+    public class HistorialEscucha
     {
         public int Id { get; set; }
         public DateTime EscuchadaEn { get; set; }

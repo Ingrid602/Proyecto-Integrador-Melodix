@@ -7,7 +7,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class Pista
+    public class Pista
     {
         public int Id { get; set; }
         public string Titulo { get; set; }

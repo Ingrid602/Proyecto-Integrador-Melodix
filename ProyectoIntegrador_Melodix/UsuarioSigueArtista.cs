@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class UsuarioSigueArtista
+    public class UsuarioSigueArtista
     {
         public int Id { get; set; }
         public DateTime CreadoEn { get; set; }

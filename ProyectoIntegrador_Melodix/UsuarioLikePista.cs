@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class UsuarioLikePista
+    public class UsuarioLikePista
     {
         public int Id { get; set; }
         public DateTime CreadoEn { get; set; }

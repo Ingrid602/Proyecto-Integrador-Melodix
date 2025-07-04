@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador_Melodix
 {
-    internal class ListaPista
+    public class ListaPista
     {
         public int Id { get; set; }
         public int Posicion { get; set; }
